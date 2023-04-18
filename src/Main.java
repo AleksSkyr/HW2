@@ -89,7 +89,7 @@
             var defferenceWeigt = boxer2Weigt - boxer1Weigt;
             System.out.println("Второй боксёр тяжелее первого на  " + defferenceWeigt + "кг!");
             var athleteWeigt = (boxer1Weigt + boxer2Weigt);
-            var differenceWeigt = (boxer2Weigt - boxer1Weigt) % athleteWeigt;
+            var differenceWeigt = (boxer2Weigt - boxer1Weigt) % athleteWeigt
             System.out.println("Разница в весе бойцов равна " + differenceWeigt + "кг!");
 
         }
